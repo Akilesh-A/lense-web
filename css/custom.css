@@ -1,0 +1,76 @@
+/**************************************
+	 This is custom css.
+***************************************/
+
+.live-demo-content{
+	color: #252525;
+	font-size: 16px;
+	line-height: 28px;
+  }
+  .footer_widget .textwidget p a:hover{
+   color: #aeacac;
+  }
+  .social-menu {
+	display: flex;
+	padding-left: 0;
+	gap: 15px;
+  }
+  .social-btn {
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 30%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 10px 10px -5px rgb(255,255,255,0.1);
+	transition: all 0.3s;
+	z-index: 10px;
+  }
+  .social-btn a {
+	text-decoration: none;
+	color: #fff;
+  }
+  .social-btn:hover a {
+	color: #fff;
+  }
+  
+  .facebook a {
+	color: #3b5999;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .facebook:hover,
+  .facebook:hover .social-btn:before,
+  .facebook:hover .social-btn:after {
+	background: #3b5999;
+  }
+  .instagram a {
+	color: #962fbf;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .instagram a i,.facebook a i,.pinterest a i {
+	font-size: 22px;
+  }
+  .instagram:hover,
+  .instagram:hover .social-btn:before,
+  .instagram:hover .social-btn:after {
+	background: #962fbf;
+  }
+  .pinterest a {
+	color: #1aae0d;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pinterest:hover,
+  .pinterest:hover .social-btn:before,
+  .pinterest:hover .social-btn:after {
+	background: #1aae0d;
+  }
+  
